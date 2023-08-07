@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0.5, user-scalable=no,user-scalable=yes">
+
+
+		<title>百济神州时空魔方</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/threesixty.css">
+		<link rel="stylesheet" href="css/PangMenZhengDao.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/animations.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+
+		<script src="js/jsmpeg.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<!-- <script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script> -->
+	</head>
+	<body>
+
+		<div class="pf whtl0 ">
+
+			<div class="pf whtl0 DeviceBox dn b000">
+				<div class="h100 center">
+					<div class="bfff" style="border-radius: 5px; padding: 15px 10px 10px 10px; width: 250px;">
+						<div class="tec f16" style="padding:10px 0px; color: #737373;">
+							为了您更好的体验<br>百济神州时空魔方<br>请允许授权访问动作与方向
+						</div>
+						<div class="h1" style="background: #EDEDED;"></div>
+						<div class="h5"></div>
+						<div class="h5"></div>
+						<div class="center butDevice f16">
+							确认
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pf whtl0 video dn b000">
+				<div class="pf whtl0 center">
+					<img class="load" src="img/load.png" alt="">
+				</div>
+
+				<div class="pf center Android whtl0" style="display: none;">
+					<canvas id="video-canvas" style="width: 100%;"></canvas>
+				</div>
+
+				<div class="pf ios whtl0 center ovh">
+					<video class="deg90" id="sound0"
+						src="https://video.play.atline.cn/7c99f6b0vodtranssh1252054921/5cf59840243791580875851279/v.f100030.mp4"
+						playsinline webkit-playsinline x5-playsinline></video>
+					<div class="pa cfff f12 tiaoguo deg90"
+						style="bottom: 40px; right: 20px; border: #fff solid 1px; padding: 2px 10px; border-radius: 100px; ">
+						跳过</div>
+				</div>
+
+
+			</div>
+			<!-- style="background: url(img/1.jpg) no-repeat center; background-size:100%;" -->
+			<div class="pf whtl0 primaryBox dn">
+				<div class="pf whtl0 p1 bg trall3">
+
+					<div id="threesixty" class="pf whtl0">
+						<ol id="threesixty_images" class="pa whtl0"></ol>
+					</div>
+
+
+
+					<div class="pa jdt center">
+						<div class="deg90">
+							<div class="tec f14 fb jdttxt" style="color: #E42736;">0%</div>
+							<div class="f12" style="color: #989898;">百济神州魔方载入中</div>
+						</div>
+					</div>
+					<div class="pa whtl0 pointernone step1">
+						<img class="pa p1title animated fd" src="img/p1title.png" alt="">
+						<div class="pa Group2 pointerall animated fadeInLeft center" style="display: none;">
+							<div class="">
+								<div class="center sjxjt"><img class="animated2 infinite flash" src="img/Group7.png"
+										alt=""></div>
+								<div class="center"><img class="Group9" src="img/Group9.png" alt=""></div>
+								<div class="center sjxjt"><img class="animated2 infinite flash" src="img/Group8.png"
+										alt=""></div>
+							</div>
+						</div>
+					</div>
+					<!--  dn -->
+					<div class="pa step2 trall3 pt-page-delay200 animated fadeIn dn">
+
+						<div class="pf Group62s center">
+							<img src="img/Group62.png" alt="">
+						</div>
+
+						<div class="pa HandBox deg90">
+							<div class="Hand center ">
+								<img width="40" src="img/Hand-OneFinger-DoubleTap.png" alt="">
+							</div>
+							<div class="f12 c003A70" style=" -webkit-transform:scale(0.8) translateY(-10px)">
+								点击标题进入展厅
+							</div>
+						</div>
+						<div class="pa navboxbk trall3"></div>
+						<div class="pa Group2s1 deg90 deglc">
+							<div class="flex alignitems_center navnr trall3 fb">
+								<div class="Group53 center pr">
+									<div></div>
+									<div class="pa"></div>
+								</div>
+								<div class="">第一章</div>
+								<div class="">不走寻常路</div>
+							</div>
+						</div>
+						<div class="pa Group3 deg90 deglc">
+							<div class="flex alignitems_center navnr trall3 fb">
+								<div class="Group53 center pr">
+									<div></div>
+									<div class="pa"></div>
+								</div>
+								<div class="">第二章</div>
+								<div class="">相信科学</div>
+							</div>
+						</div>
+						<div class="pa Group4 deg90 deglc">
+							<div class="flex alignitems_center navnr trall3 fb">
+								<div class="Group53 center pr">
+									<div></div>
+									<div class="pa"></div>
+								</div>
+								<div class="">第三章</div>
+								<div class="">逢山开路 遇水搭桥</div>
+							</div>
+						</div>
+						<div class="pa Group5 deg90 deglc">
+							<div class="flex alignitems_center navnr trall3 fb">
+								<div class="Group53 center pr">
+									<div></div>
+									<div class="pa"></div>
+								</div>
+								<div class="">第四章</div>
+								<div class="">主人翁精神 使命感</div>
+							</div>
+						</div>
+						<div class="pa Group6 deg90 deglc">
+							<div class="flex alignitems_center navnr trall3 fb">
+								<div class="Group53 center pr">
+									<div></div>
+									<div class="pa"></div>
+								</div>
+								<div class="">第五章</div>
+								<div class="">前瞻性 时不我待</div>
+							</div>
+						</div>
+						<div class="pa Group7 deg90 deglc">
+							<div class="flex alignitems_center navnr trall3 fb">
+								<div class="Group53 center pr">
+									<div></div>
+									<div class="pa"></div>
+								</div>
+								<div class="">第六章</div>
+								<div class="">Make Impact</div>
+							</div>
+						</div>
+						<img class="pa but1" src="img/but1.png" alt="">
+						<img class="pa but2" src="img/but2.png" alt="">
+					</div>
+					<img class="pa logo deg90" src="img/logo.png" alt="">
+				</div>
+
+				<div class="pf whtl0 p2 dn trall3">
+
+					<div class="p2nr pa whtl0">
+
+						<div class="mainPanel">
+							<div class="magicCubeCanvas deg90 pf"></div>
+						</div>
+						<div class="pa HandBox deg90" style="top: 24%;left: 16%;width: 100px;">
+							<div class="Hand center" style="width: 40px;margin: 0px auto;">
+								<img style="width: 40px; height: 44px;" src="img/Hand-OneFinger-DoubleTap.png" alt="">
+							</div>
+							<div class="f12 c003A70" style=" -webkit-transform:scale(0.8) translateY(-10px)">
+								点击了解展厅故事
+							</div>
+						</div>
+						<div class="pa whtl0 pointernone zttxt f12 tec" style="width: 1800px;">
+							<div class="pa zt1 flex alignitems_center deg90 deglt pointerall">
+
+								<div class="pa zttxtyuan" style=""></div>
+								<div class="pr zttxtwb"></div>
+
+
+							</div>
+							<div class="pa zt2 flex alignitems_center deg90 deglt pointerall">
+
+								<div class="pa zttxtyuan" style=""></div>
+								<div class="pr zttxtwb"></div>
+							</div>
+							<div class="pa zt3 flex alignitems_center deg90 deglt pointerall">
+
+								<div class="pa zttxtyuan" style=""></div>
+								<div class="pr zttxtwb"></div>
+							</div>
+							<div class="pa zt4 flex alignitems_center deg90 deglt pointerall">
+
+								<div class="pa zttxtyuan" style=""></div>
+								<div class="pr zttxtwb"></div>
+							</div>
+							<div class="pa zt5 flex alignitems_center deg90 deglt pointerall">
+
+								<div class="pa zttxtyuan" style=""></div>
+								<div class="pr zttxtwb"></div>
+							</div>
+						</div>
+						<div class="pf whtl0 dn" style="z-index: 4;" id="introduce">
+							<div class="swiper mySwiper w100 h100">
+								<div class="swiper-wrapper">
+
+								</div>
+								<div class="swiper-next pa center"
+									style="width: 100%; bottom: 21px; left: 0px; z-index: 3;">
+									<img width="20" src="img/Group120.png" alt="">
+								</div>
+								<div class="swiper-prev pa center"
+									style="width: 100%; top: 21px; left: 0px; z-index: 3;">
+									<img width="20" src="img/Group119.png" alt="">
+								</div>
+								<div class="center pa pointernone"
+									style="z-index: 3; bottom: 50px; left: 35; height: calc(100% - 430px);">
+									<div class="center deg90">
+										<div class="pa c003A70 f12 tec" style="width: 180px;">
+											上下滑动查看完整故事
+										</div>
+										<img width="18" src="img/Group154.png" alt="">
+									</div>
+								</div>
+								<img style="" class="pa Group123" src="img/Group123.png" alt="">
+							</div>
+						</div>
+						<div class="pa chapter pointernone center"
+							style="z-index: 4; height: 100%; right: 0px; top: 0px;">
+							<div class="chapter47" style="">
+								<div class="center">
+									<img width="47" src="img/chapter01.png" alt="">
+								</div>
+								<div class="center fb chaptertitle"
+									style="background: url(img/chapter02.png); color: #003A70; ">
+									<div class="deg90 tec" style="line-height: 1; "></div>
+								</div>
+								<div class="center" style=" margin-left: -1px;">
+									<img width="47" src="img/chapter03.png" alt="">
+								</div>
+							</div>
+						</div>
+
+						<img class="pa but8" src="img/but8.png" alt="">
+						<img class="pa but4" src="img/but4.png" alt="">
+						<img class="pa but2 on" style="width: 11%;bottom: 5%;left: 5%; top: auto;" src="img/but2.png"
+							alt="">
+						<div class="pa center pointernone"
+							style="position: absolute; top: 0px; height: 100%; z-index: 3; width: 11%; left: 7%;">
+							<div class="c003A70 deg90" style=" text-align: center; min-width: 140px;">
+								<div class="center pr" style="width: 110px; margin: 0px auto;">
+									<img class="Group110" width="110" src="img/Group153.png" alt="">
+									<img class="pa Group110s1" style="top: 0px; left: 0px;" width="110"
+										src="img/Group153s1.png" alt="">
+									<img class="pa Group110s2" style="top: 0px; left: 0px;" width="110"
+										src="img/Group153s2.png" alt="">
+								</div>
+								<div class="f12">左右摇晃手机查看</div>
+							</div>
+						</div>
+					</div>
+					<div class="pa p2load whtl0 bg" style="z-index: 4;">
+						<div class="h100 center deg90">
+							<div>
+								<div class="tec f14 fb jdttxt" style="color: #E42736;">0%</div>
+								<div class="f12" style="color: #989898;">百济神州魔方载入中</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="pf whtl0 dn" id="ljbj">
+				<div class="pa tknr">
+					<div class="tknrBox pa center">
+						<div class="ljbjimg" style="width: 98%; height: 98%;overflow-y: auto; ">
+
+						</div>
+					</div>
+				</div>
+				<img class="pa Group152 pointernone" src="img/Group152.png" alt="">
+				<img style="" class="pa Group123" src="img/Group123.png" alt="">
+			</div>
+
+			<div class="pf whtl0 trall3 dn" id="gdgs" style=" background: #F8F8F8;">
+				<div class="flex alignitems_center"
+					style="height: calc(100% - 200px); width: 100%; margin: 0px auto 0px 10px;">
+					<div class="h100 gdgsimg tec center" style="width: 50%; margin-right: -20px;">
+						<div>
+							<img class="Group70 jl4" data-type="4" src="img/zwt2.png" style="" alt="">
+							<img class="Group70 jl5" data-type="5" src="img/zwt2.png" style="" alt="">
+							<img class="Group70 jl6" data-type="6" src="img/zwt2.png" style="" alt="">
+						</div>
+					</div>
+					<div class="h100 gdgsimg tec center" style="width: 50%; margin-right: -20px;">
+						<div>
+							<img class="Group70 jl1" data-type="1" src="img/zwt2.png" style="" alt="">
+							<img class="Group70 jl2" data-type="2" src="img/zwt2.png" style="" alt="">
+							<img class="Group70 jl3" data-type="3" src="img/zwt2.png" style="" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="center Group165"
+					style="width: calc(100% - 20px); position: fixed; bottom: 20px; right: 0px; left: 0px; height: 205px;">
+					<img style="" src="img/Group165.png" alt="">
+				</div>
+				<div class="pa HandBox deg90" style="top: 68%;right: 85%;">
+					<div class="Hand center ">
+						<img width="40" src="img/Hand-OneFinger-DoubleTap.png" alt="">
+					</div>
+				</div>
+				<img style="" class="pa Group123" src="img/Group123.png" alt="">
+			</div>
+
+
+			<div class="pf whtl0 dn" id="jshn">
+				<div class="center h100">
+					<div class="pr tknr" style="inset: 0px; padding: 5px; height: 95%;">
+						<img class="pa Group79" src="img/Group123.png" alt="">
+						<div class="tknrBox pr" style="padding: 10px;inset: 0px; height: calc(100% - 20px);">
+							<div class="center pr" style="height:calc(100% - 40px);">
+								<img class="h100" src="img/coverimg.png" alt="">
+								<img class="coverimg pa whtl0" style=" box-shadow: 0px 0px 5px rgb(0 0 0 / 50%);"
+									src="img/zwt.png" alt="">
+							</div>
+							<div class="c003A70 pointernone"
+								style="position: absolute;bottom: 0px;left: 0px;right: 0px; height: 105px;">
+								<div class="tec deg90" style=" width: 30px;  margin: 0px auto;">
+									<div style=" width: 20px; margin: 0px auto; text-align: center;">长按保存图片</div>
+									<img style=" width: 30px; max-width: 30px;" src="img/Group86.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="pf whtl0 dn" id="tszlgy">
+				<div class="pa whtl0 filter" style="background: rgb(0 0 0 / 76%);"></div>
+				<div class="center h100 pr" style="z-index: 3;">
+					<div class="w100 deg90" style="">
+						<div class="center">
+							<div class="pr center">
+								<img class="Group110" width="66" src="img/Group110.png" alt="">
+								<img class="pa whtl0 Group110s1" src="img/Group110s1.png" alt="">
+								<img class="pa whtl0 Group110s2" src="img/Group110s2.png" alt="">
+							</div>
+						</div>
+						<div class="h20"></div>
+						<div class="tec cfff">左右晃动手机，查看展厅全貌</div>
+						<div class="h20"></div>
+						<div class="cfff f12 tiaoguo2 m0aoto tec"
+							style=" width: 30px; border: #fff solid 1px; padding: 2px 10px; border-radius: 100px; ">跳过
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pf whtl0 dn" id="swjs" style="">
+				<div class="pa whtl0 filter" style="background: rgb(0 0 0 / 76%);"></div>
+				<div class="center h100 pr pointernone" style="z-index: 3;">
+					<div class="w100 deg90 " style="">
+						<div class="center">
+							<img width="107" src="img/Group109.png" alt="">
+						</div>
+						<div class="h20"></div>
+						<div class="tec cfff">您尚未解锁该海报，请前往阅读展厅故事</div>
+						<div class="h20"></div>
+						<div class="cfff f12 tiaoguo3 m0aoto tec linH1 pointerall"
+							style=" width: 60; border: #fff solid 1px; padding: 7 10; border-radius: 100px; ">点击前往</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pf whtl0 dn" id="smBox" style="background: rgba(247, 247, 247, 0.6); z-index: 6;">
+				<canvas id="mb1" class="dn"></canvas>
+				<!-- <div class="pa center pointernone" style="top: 0px; left: 0px; height: 100%; width: 47;">
+					<div class="f12 c003A70 deg90 center" style="min-width: 250; text-align: center;">
+						<img src="img/Group86.png" style=" width: 30; margin-right: 10;" alt="">
+						长按保存，珍藏百济神州时空故事
+					</div>
+				</div>
+				<div class="pa center" style="top: 0px; left: 30px; right: 0px; height: 100%;">
+					<div class="center pr deg90">
+						<img class=" smimg pointernone on" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);max-width: 1000; opacity: 1;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);" src="img/zwt.png" alt="">
+						<img class="pa smimg" style="max-width: 440; min-width: 440; top: 0px; left: 0px; opacity: 0; height: auto;" src="img/zwt.png" alt="">
+					</div> 
+				</div> -->
+
+
+				<div class="center h100">
+					<div class="">
+						<div class="center">
+							<img class="smimg"
+								style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);opacity: 1;width: 95%;"
+								src="img/zwt.png" alt="">
+						</div>
+						<div class="h10"></div>
+						<div class="h10"></div>
+						<div class="h10"></div>
+
+						<div class="c003A70 pointernone center" style=" height: 10;">
+							<div class="tec deg90 f12" style="width: 30;">
+								<div style="width: 14;text-align: center;margin: 0 auto">长按保存　珍藏百济神州时空故事</div>
+								<img style="width:30; max-width: 30" src="img/Group86.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<img style="bottom: 10px; right: 10px; width: 40px; z-index: 3;" class="pa smBoxgb"
+					src="img/Group123.png" alt="">
+			</div>
+		</div>
+
+		<div class="dn">
+			<audio id="sound1" loop
+				src="https://video.play.atline.cn/a5b00908vodsh1252054921/c0b79e53243791580849391104/IUD3zWtZYAoA.mp3"></audio>
+		</div>
+		<!--  -->
+		<script type="text/javascript">
+			var _hmt = _hmt || [];
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?39f7acedf2faa4955e3cb711922a9c85";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+			// npx parcel src/index.html
+			// http://localhost:1234/
+			// 375*724
+			// 428*835
+		</script>
+
+		<script src="js/jquery-1.7.min.js"></script>
+		<script type="module" src="js/threesixty.js"></script>
+		<!-- <script src="js/index.js"></script> -->
+
+
+	</body>
+</html>
